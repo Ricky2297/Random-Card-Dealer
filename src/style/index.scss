@@ -1,5 +1,36 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+.card-container {
+  height: 500px;
+  width: 350px;
+  background: white;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 10px 10px 15px;
+}
+
+.top-symbol {
+  font-size: 110px;
+  margin-left: 20px;
+}
+
+.center-number {
+  font-size: 110px;
+  margin-top: -5px;
+}
+
+.botton-symbol {
+  font-size: 110px;
+  margin-top: 10px;
+  margin-right: 20px;
+  -moz-transform: scale(1, -1);
+  -webkit-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
 /* 
     body{
         background: #BDBDBD;
